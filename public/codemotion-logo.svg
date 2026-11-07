@@ -1,0 +1,41 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background with Rounded Square -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9F7AEA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B794F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F687B3;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Shadow -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="20"/>
+      <feOffset dx="0" dy="10" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background Rounded Square -->
+  <rect x="40" y="40" width="432" height="432" rx="120" fill="url(#bgGradient)" filter="url(#shadow)"/>
+  
+  <!-- Code Lines (left side) -->
+  <g opacity="0.9">
+    <!-- Top line -->
+    <rect x="140" y="200" width="120" height="24" rx="12" fill="white" opacity="0.7"/>
+    
+    <!-- Middle line -->
+    <rect x="140" y="244" width="120" height="24" rx="12" fill="white" opacity="0.8"/>
+    
+    <!-- Bottom line -->
+    <rect x="140" y="288" width="120" height="24" rx="12" fill="white" opacity="0.9"/>
+  </g>
+  
+  <!-- Play Button (right side) -->
+  <path d="M300 170 L420 256 L300 342 Z" fill="white" opacity="0.95"/>
+</svg>

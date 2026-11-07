@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="faviconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9F7AEA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B794F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F687B3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#faviconGradient)"/>
+  
+  <!-- Code Lines -->
+  <rect x="8" y="11" width="8" height="2" rx="1" fill="white" opacity="0.8"/>
+  <rect x="8" y="15" width="8" height="2" rx="1" fill="white" opacity="0.9"/>
+  <rect x="8" y="19" width="8" height="2" rx="1" fill="white" opacity="1"/>
+  
+  <!-- Play Button -->
+  <path d="M19 10 L27 16 L19 22 Z" fill="white" opacity="0.95"/>
+</svg>
