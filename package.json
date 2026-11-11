@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.2.0",
+    "@upstash/ratelimit": "^2.2.0",
+    "@upstash/redis": "^1.41.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "drizzle-orm": "^0.45.4",
@@ -30,6 +32,7 @@
     "zustand": "^5.0.16"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.16.6",
     "@playwright/test": "^1.64.1",
     "@tailwindcss/turbopack": "^4",
     "@testing-library/jest-dom": "^7.0.1",

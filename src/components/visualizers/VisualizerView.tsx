@@ -38,7 +38,7 @@ export const VisualizerView: React.FC<VisualizerViewProps> = ({
   const setSpeed = usePlayerStore((s) => s.setSpeed);
   const goToFrame = usePlayerStore((s) => s.goToFrame);
   
-  const [persistedSpeed, setPersistedSpeed] = useLocalStorage('visualdsa-speed', 1);
+  const [persistedSpeed, setPersistedSpeed] = useLocalStorage('codemotion-speed', 1);
   const searchParams = useSearchParams();
 
   const {

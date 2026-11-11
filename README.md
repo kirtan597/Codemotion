@@ -17,7 +17,7 @@
 ## Project Structure
 
 ```
-visualdsa-pro/
+codemotion/
 ├── src/
 │   ├── app/                      # Next.js App Router
 │   │   ├── api/                  # Backend API routes
@@ -160,7 +160,7 @@ npm install
 Create `.env` file:
 
 ```env
-DATABASE_URL=postgresql://user:password@localhost:5432/visualdsa
+DATABASE_URL=postgresql://user:password@localhost:5432/codemotion
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 ```
 

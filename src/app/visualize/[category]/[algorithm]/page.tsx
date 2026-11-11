@@ -27,16 +27,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
   
   return {
-    title: `${algo.name} - VisualDSA Pro`,
+    title: `${algo.name} - CodeMotion`,
     description: algo.description,
     openGraph: {
       title: `${algo.name} Visualization`,
       description: `${algo.description} - Interactive step-by-step visualization with complexity analysis.`,
       type: 'website',
-      siteName: 'VisualDSA Pro',
+      siteName: 'CodeMotion',
       images: [
         {
-          url: '/og-image.png',
+          url: '/og-image.svg',
           width: 1200,
           height: 630,
           alt: `${algo.name} Visualization`,
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${algo.name} - VisualDSA Pro`,
+      title: `${algo.name} - CodeMotion`,
       description: algo.description,
       images: ['/og-image.png'],
     },

@@ -15,8 +15,8 @@ const DEFAULT_INPUT: PrimInput = {
 };
 
 export const prim: AlgorithmDefinition<PrimInput, GreedyData> = {
-  id: 'prim-mst',
-  name: "Prim's MST",
+  id: 'prim-mst-greedy',
+  name: "Prim's MST (Greedy)",
   category: 'greedy',
   categoryName: 'Greedy',
   description:

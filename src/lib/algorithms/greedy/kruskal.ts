@@ -46,8 +46,8 @@ class UnionFind {
 }
 
 export const kruskal: AlgorithmDefinition<KruskalInput, GreedyData> = {
-  id: 'kruskal-mst',
-  name: "Kruskal's MST",
+  id: 'kruskal-mst-greedy',
+  name: "Kruskal's MST (Greedy)",
   category: 'greedy',
   categoryName: 'Greedy',
   description:
